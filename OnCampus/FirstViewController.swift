@@ -19,6 +19,7 @@ class FirstViewController: UIViewController {
         let camera = GMSCameraPosition.camera(withLatitude: 43.037665, longitude:  -76.134194, zoom: 15.0)
         let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
         mapView.isMyLocationEnabled = true
+        
         view = mapView
         // Creates a marker in the center of the map.
         let marker = GMSMarker()
@@ -26,6 +27,11 @@ class FirstViewController: UIViewController {
         marker.title = "Life Sciences"
         marker.snippet = "Syracuse"
         marker.map = mapView
+        let ischool = GMSMarker()
+        ischool.position = CLLocationCoordinate2D(latitude: 43.038271, longitude: -76.133502)
+        ischool.title = "Hinds Hall"
+        ischool.snippet = "Syracuse"
+        ischool.map = mapView
     }
     override func viewDidLoad() {
         super.viewDidLoad()
