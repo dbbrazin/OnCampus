@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7E0AC536AD17EF81F315864B /* libPods-OnCampus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9100A71C254D4C89D0A54293 /* libPods-OnCampus.a */; };
 		AB3532FD23F8827E00F0C429 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3532FC23F8827E00F0C429 /* ThirdViewController.swift */; };
+		AB3532FF23F88D0000F0C429 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = AB3532FE23F88A0100F0C429 /* style.json */; };
 		ABEAE00D23F85F3B0046C2C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEAE00C23F85F3B0046C2C8 /* AppDelegate.swift */; };
 		ABEAE00F23F85F3B0046C2C8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEAE00E23F85F3B0046C2C8 /* FirstViewController.swift */; };
 		ABEAE01123F85F3B0046C2C8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEAE01023F85F3B0046C2C8 /* SecondViewController.swift */; };
@@ -23,6 +24,7 @@
 		45388DBF8E0C9B163C3C90C8 /* Pods-OnCampus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnCampus.release.xcconfig"; path = "Target Support Files/Pods-OnCampus/Pods-OnCampus.release.xcconfig"; sourceTree = "<group>"; };
 		9100A71C254D4C89D0A54293 /* libPods-OnCampus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OnCampus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3532FC23F8827E00F0C429 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		AB3532FE23F88A0100F0C429 /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
 		ABEAE00923F85F3B0046C2C8 /* OnCampus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnCampus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEAE00C23F85F3B0046C2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABEAE00E23F85F3B0046C2C8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				ABEAE01523F85F3D0046C2C8 /* Assets.xcassets */,
 				ABEAE01723F85F3D0046C2C8 /* LaunchScreen.storyboard */,
 				ABEAE01A23F85F3D0046C2C8 /* Info.plist */,
+				AB3532FE23F88A0100F0C429 /* style.json */,
 			);
 			path = OnCampus;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				ABEAE01923F85F3D0046C2C8 /* LaunchScreen.storyboard in Resources */,
 				ABEAE01623F85F3D0046C2C8 /* Assets.xcassets in Resources */,
 				ABEAE02123F860FE0046C2C8 /* Podfile in Resources */,
+				AB3532FF23F88D0000F0C429 /* style.json in Resources */,
 				ABEAE01423F85F3B0046C2C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

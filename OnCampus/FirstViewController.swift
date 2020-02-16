@@ -19,7 +19,16 @@ class FirstViewController: UIViewController {
         let camera = GMSCameraPosition.camera(withLatitude: 43.037665, longitude:  -76.134194, zoom: 15.0)
         let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
         mapView.isMyLocationEnabled = true
-        
+        do {
+            // Set the map style by passing the URL of the local file.
+            if let styleURL = Bundle.main.url(forResource: "style", withExtension: "json") {
+                mapView.mapStyle = try GMSMapStyle(contentsOfFileURL: styleURL)
+            } else {
+                NSLog("Unable to find style.json")
+            }
+        } catch {
+            NSLog("One or more of the map styles failed to load. \(error)")
+        }
         view = mapView
         // Creates a marker in the center of the map.
         let marker = GMSMarker()
